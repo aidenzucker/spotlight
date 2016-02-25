@@ -1,0 +1,124 @@
+/*=====================================================================
+  HOVER IMAGE AND WORD HOVER CSS
+  =====================================================================*/
+html{
+	padding: 0px;
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+.wrapper{
+	/*background-image: url("img/chimero-collage1.jpg");*/
+	background-color: #525252;
+	font-family: sans-serif;
+	color: white;
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.wrapper img:hover{
+	opacity: .75;
+}
+
+h1{
+	margin: 0;
+}
+
+#img1 {
+	position: absolute;
+	top: 210px;
+	left: 88px;
+	cursor: url("cursors/cursor1.cur"),auto;  
+    overflow-x: hidden;
+}
+
+#img2 {
+	position: absolute;
+	top: 91px;
+	left: 395px;
+	cursor: url("herzog_big_mouse.png"),auto;  
+    overflow-x: hidden;
+}
+
+#img3 {
+	position: absolute;
+	top: 188px;
+	left: 749px;
+}
+
+#img4 {
+	position: absolute;
+	top: 103px;
+	left: 1033px;
+}
+
+#img5 {
+	position: absolute;
+	top: 340px;
+	left: 387px;
+}
+
+#img6 {
+	position: absolute;
+	top: 409px;
+	left: 1075px;
+}
+
+#img7 {
+	position: absolute;
+	top: 520px;
+	left: 88px;
+}
+
+#img8 {
+	position: absolute;
+	top: 621px;
+	left: 351px;
+}
+
+#img9 {
+	position: absolute;
+	top: 585px;
+	left: 596px;
+}
+
+#img10 {
+	position: absolute;
+	top: 637px;
+	left: 1020px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
