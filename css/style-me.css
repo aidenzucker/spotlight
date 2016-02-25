@@ -34,7 +34,7 @@ h1{
 	position: absolute;
 	top: 210px;
 	left: 88px;
-	cursor: url("cursors/cursor1.cur"),auto;  
+	cursor: url("../cursors/cursor1.cur"),auto;  
     overflow-x: hidden;
 }
 
@@ -42,7 +42,7 @@ h1{
 	position: absolute;
 	top: 91px;
 	left: 395px;
-	cursor: url("herzog_big_mouse.png"),auto;  
+	cursor: url("../cursors/herzog_big_mouse.png"),auto;  
     overflow-x: hidden;
 }
 
