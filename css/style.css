@@ -1,0 +1,241 @@
+@font-face {
+  font-family: 'CooperHewitt-Book';
+  src: url('fonts/CooperHewitt-Book.eot'); /* IE9 Compat Modes */
+  src: url('fonts/CooperHewitt-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/CooperHewitt-Book.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/CooperHewitt-Book.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CooperHewitt-Semi-Bold';
+  src: url('fonts/CooperHewitt-Semi-Bold.eot'); /* IE9 Compat Modes */
+  src: url('fonts/CooperHewitt-Semi-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/CooperHewitt-Semi-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/CooperHewitt-Semi-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.landing-wrapper{
+	width: 100vw;
+	height: 100vh;
+	background-image: url("landing.png");
+	z-index: 100;
+}
+
+
+html{
+	/*background-color: #353535;*/
+}
+
+body{
+    padding: 0px;
+	margin: 0px;
+	background-color: #353535;
+	/*color: white;*/
+	/*width: 100vw;
+	height: 100vh;*/
+	margin: 0;
+	font-family: 'CooperHewitt-Book', Helvetica, Arial, sans-serif;
+	/*height: 10000px;*/
+}
+
+p{
+	font-family: 'Lora', serif;
+	margin-top: 22px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+
+.background-text {
+  position:  absolute;
+  color: white;
+}
+canvas{
+    position:  absolute;
+    pointer-events: none;
+    /*border: 1px dotted rgba(0,0,0,0.4);*/
+}
+
+body img:hover{
+	opacity: .75;
+}
+
+h1{
+	margin: 0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	line-height: 50px;
+	font-family: 'CooperHewitt-Semi-Bold', Helvetica, Arial, sans-serif;
+	color: #D4B14E;
+
+	font-size: 50px;
+}
+
+h2{
+	margin: 0;
+	font-size: 25px;
+	font-family: 'CooperHewitt-Book', Helvetica, Arial, sans-serif;
+}
+
+h4{
+	color: darkgrey;
+	font-family: 'CooperHewitt-Semi-Bold', Helvetica, Arial, sans-serif;
+	letter-spacing: .5px;
+}
+
+.modal-content img{
+	width: 100%;
+}
+
+.image-wrapper img{
+	position:  absolute;
+}
+
+/*1-delaunay*/
+#img1 {
+	left: 23vw;
+	top: 12vw;
+	cursor: url("cursors/herzog_big_mouse.png"),auto;  
+    overflow-x: hidden;
+}
+
+/*2-sparkplug*/
+#img2 {
+	left: 61vw;
+	top: 35vw;
+	cursor: url("cursors/brainstorming.png"),auto;  
+    overflow-x: hidden;
+}
+
+/*3-weather*/
+#img3 {
+	left: 5vw;
+	top: 48vw;
+	width: 300px;
+	cursor: url("cursors/cross-pollinate.png"),auto; 
+}
+
+/*4-shell*/
+#img4 {
+	left: 41vw;
+	top: 76vw;
+	cursor: url("cursors/accidental-wisdom.png"),auto;  
+}
+
+/*5-birds*/
+#img5 {
+	left: 71vw;
+	top: 93vw;
+	cursor: url("cursors/hammock.png"),auto;  
+}
+
+/*6-gold*/
+#img6 {
+	left: 18vw;
+	top: 105vw;
+	cursor: url("cursors/urine.png"),auto;  
+}
+
+/*7-mole*/
+#img7 {
+	left: 59vw;
+	top: 120vw;
+}
+
+/*8-dada-head*/
+#img8 {
+	left: 4vw;
+	top: 132vw;
+}
+
+/*9-tv*/
+#img9 {
+	left: 30vw;
+	top: 138vw;
+	width: 300px;
+	cursor: url("cursors/like-cereal.png"),auto;  
+}
+
+/*10-slot-machine*/
+#img10 {
+	left: 33vw;
+	top: 172vw;
+}
+
+/*11-ants*/
+#img11 {
+	left: 66vw;
+	top: 171vw;
+}
+
+#img12 {
+	left: 20vw;
+	top: 187vw;
+}
+
+
+#img13 {
+	left: 39vw;
+	top: 225vw;
+}
+
+
+#img14 {
+	left: 72vw;
+	top: 209vw;
+}
+
+
+#img15 {
+	left: 59vw;
+	top: 242vw;
+}
+
+
+#img16 {
+	left: 16vw;
+	top: 250vw;
+}
+
+
+#img17 {
+	left: 62vw;
+	top: 265vw;
+}
+
+
+#img18 {
+	left: 15vw;
+	top: 300vw;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
