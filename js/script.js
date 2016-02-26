@@ -1,4 +1,4 @@
-canvas = document.getElementById('canvas');
+cnvas = document.getElementById('canvas');
 ctx = canvas.getContext('2d');
 
 ctx.fillStyle = 'black';
@@ -18,7 +18,6 @@ $(document).bind('mousemove', function(e) {
 });
 
 $(document).bind('scroll', function(e) {
-    console.log('yooo');
     myCursor.x = e.pageX;
     myCursor.y = e.pageY;
     //draw();
@@ -39,8 +38,7 @@ myInterval = setInterval( draw, frequency );  // run
 
 function draw() {
     var grad = ctx.createLinearGradient(0, 0, 0, bheight);
-    console.log('draw');    
-    grad.addColorStop(0, "black"); 
+    grad.addColorStop(0, "black");
     grad.addColorStop(1, "#284DA9"); //or gold: #D4B14E
     ctx.fillStyle = grad;
 
